@@ -1,0 +1,66 @@
+body {
+    background-image: url(../foto/back.gif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    overflow-x: hidden; 
+    font-size: 20px;
+}
+
+#char img {
+    max-height: 326px;
+    max-width: 365px;
+}
+
+#logo img {
+    max-height: 320px;
+    max-width: 240px;
+}
+
+#name {
+    padding-left: 75px; 
+    padding-right: 75px; 
+}
+
+.flex {
+    display: flex;
+}
+.center {
+    text-align: center;
+}
+
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+}
+
+#char a img:hover {
+    max-height: 391.2px;
+    max-width: 438px;
+}
+
+.main {
+    font-size: 40px;
+}
+
+#popis {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    max-width: 500px;
+}
+
+#popis h1 {
+    font-size: 3em;
+}
+
+.zde {
+    text-decoration: underline;
+}
+
+.zde:-webkit-any-link {
+    text-decoration: underline;
+}
