@@ -94,4 +94,10 @@ a:-webkit-any-link {
     body {
         background: black;
     }
+    #popis {
+        position: absolute;
+        top: 0px;
+        left: 300px;
+        max-width: 700px;
+    }
 }
