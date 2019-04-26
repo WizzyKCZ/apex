@@ -2,10 +2,10 @@ body {
     background-image: url(../foto/back.gif);
     background-repeat: no-repeat;
     background-size: cover; 
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     font-family: 'Teko', sans-serif;
     color: white;
-    overflow-x: hidden; 
+    /*overflow-x: hidden; */
     font-size: 20px;
 }
 
@@ -63,4 +63,35 @@ a:-webkit-any-link {
 
 .zde:-webkit-any-link {
     text-decoration: underline;
+}
+
+#h2 {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+} 
+
+#skill {
+    position: absolute;
+    top: 550px;
+    left: 300px;
+    margin-right: 1000px;
+}
+
+.skill {
+    max-width: 326px;
+    max-height: 183px;
+}
+
+#video {
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 1600px){
+    body {
+        background: black;
+    }
 }
